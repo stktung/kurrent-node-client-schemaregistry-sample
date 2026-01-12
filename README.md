@@ -19,11 +19,7 @@ docker run --name kurrentdb-node -it -p 2113:2113 docker.kurrent.io/kurrent-late
 
 > **Note**: The command above is shown as a single line for compatibility across all terminals and operating systems. If your terminal supports multi-line commands, you can split it for better readability.
 
-This will:
-- Start KurrentDB on port `2113`
-- Run in insecure mode (no TLS)
-- Enable projections and Atom Pub
-- Use the latest KurrentDB version (25.1.1)
+This will start KurrentDB on port `2113` and run in insecure mode (no TLS and no credientials required to login)
 
 **Managing the container:**
 
