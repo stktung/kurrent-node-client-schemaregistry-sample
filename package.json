@@ -1,0 +1,17 @@
+{
+  "name": "kurrentdb-reader",
+  "version": "1.0.0",
+  "description": "Simple KurrentDB event reader",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node schema-registry-demo.js",
+    "simple": "node simple-schema-example.js",
+    "formats": "node multi-format-example.js"
+  },
+  "dependencies": {
+    "@kurrent/kurrentdb-client": "^1.2.0-alpha.0",
+    "uuid": "^13.0.0"
+  }
+}
